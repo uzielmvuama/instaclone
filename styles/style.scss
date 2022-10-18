@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Nimbus Sans L";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../public/fonts/nimbus-sans/NimbusSanL-Reg.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Nimbus Sans L";
+    font-weight: normal;
+    font-style: italic;
+    src: url("../public/fonts/nimbus-sans/NimbusSanL-RegIta.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Nimbus Sans L";
+    font-weight: bold;
+    font-style: bold;
+    src: url("../public/fonts/nimbus-sans/NimbusSanL-Bol.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Nimbus Sans L";
+    font-weight: bold;
+    font-style: italic;
+    src: url("../public/fonts/nimbus-sans/NimbusSanL-BolIta.otf") format("opentype");
+}
+
+*{
+    font-family: "Nimbus Sans L";
+    font-size: 1em;
+}
